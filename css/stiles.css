@@ -1,9 +1,21 @@
 .heading {
-    color: blueviolet;
-    text-align: center;
+    color:#7367f0;
+    font-size: 20px;
 }
 
-#text1 {
+body {
+    color: #2e2960;
     text-align: center;
-    color: blue;
+    font-family: "Arial";
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    width: 70%;
+    padding: 1cm;
+    text-align: left;
+    border: 1px solid #DDD;
+    margin: 0 auto;
 }
