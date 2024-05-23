@@ -4,8 +4,8 @@
 }
 
 body {
+    background: #333;
     color: #796cff;
-    color: #7b5aff;
     text-align: center;
     font-family: "Aptos";
     font-size: 16px;
@@ -20,9 +20,9 @@ body {
     font-weight: bold;
     margin: 0;
     padding: 0.5em;
-}   
+}  
 
-#cabecera #tagline {
+cabecera #tagline {
     padding: 0 0 0 1em;
     font-weight: normal;
     font-size: 0.8em;
@@ -30,10 +30,15 @@ body {
 
 #container {
     width: 70%;
-    padding: 1em;
+    padding: 0;
     text-align: left;
     border: 1px solid #DDD;
     margin: 0 auto;
+}
+
+#post {
+    background: white;
+    padding: 1em;
 }
 
 #footer {
