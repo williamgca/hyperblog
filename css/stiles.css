@@ -4,8 +4,8 @@
 }
 
 body {
+    background: #333;
     color: #796cff;
-    color: #7b5aff;
     text-align: center;
     font-family: "Aptos";
     font-size: 16px;
@@ -15,24 +15,37 @@ body {
 
 #cabecera {
     background: #2e2960;
-    box-shadow: 0px 2px 20px 0px rgba(0,0,0,0,5);
+    box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.5);
     color: white;
     font-weight: bold;
-    font-size: 0.6cm;
     margin: 0;
-    padding: 0.5cm;
+    padding: 0.5em;
 }   
 
+#cabecera #logo {
+    width: 20px;
+    vertical-align: middle;
+}
+
 #cabecera #tagline {
-    padding: 0 0 0 1cm;
+    padding: 0 0 0 1em;
     font-weight: normal;
-    font-size: 0.4cm;
+    font-size: 0.8em;
 }
 
 #container {
     width: 70%;
-    padding: 1cm;
+    padding: 0;
     text-align: left;
     border: 1px solid #DDD;
     margin: 0 auto;
+}
+
+#container h1 {
+    font-size: 20px;
+}
+
+#post {
+    background: white;
+    padding: 1em;
 }
