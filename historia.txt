@@ -2,12 +2,10 @@ Willi willi con 22 años owo
 
 A ver como son los cambios xd
 
-<<<<<<< HEAD
 Luego hago el proyecto propio unu
 
 Master 1
-=======
 Experimento 1
 
 Luego hago el proyecto propio unu
->>>>>>> 209c390 (Exp 1)
+a
